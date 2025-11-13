@@ -17,7 +17,7 @@ from sklearn.feature_selection import VarianceThreshold
 from xgboost import XGBClassifier
 from imblearn.ensemble import BalancedBaggingClassifier
 
-# To run script, cd into additional_models directory and use the command: python predict_hlm_stability.py "<SMILES_STRING>"
+# To run script, cd into additional_models/hlm_stability directory and use the command: python predict_hlm_stability.py "<SMILES_STRING>"
 
 # Remover of highly correlated features
 class Decorrelator(BaseEstimator, TransformerMixin):
